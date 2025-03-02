@@ -13,15 +13,15 @@
 		488FD3762D74CD0800CEA188 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55378E8B1135C0A70038E405 /* Carbon.framework */; };
 		488FD3782D74CD0E00CEA188 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FD3772D74CD0E00CEA188 /* Cocoa.framework */; };
 		488FD3892D74D1D900CEA188 /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FD3842D74D1D900CEA188 /* DDHotKeyUtilities.m */; };
-		488FD38A2D74D1D900CEA188 /* DDHotKeyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */; };
+		488FD38A2D74D1D900CEA188 /* DDHotKeyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		488FD38B2D74D1D900CEA188 /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FD3862D74D1D900CEA188 /* DDHotKeyTextField.m */; };
-		488FD38C2D74D1D900CEA188 /* DDHotKeyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */; };
+		488FD38C2D74D1D900CEA188 /* DDHotKeyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		488FD38D2D74D1D900CEA188 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FD3882D74D1D900CEA188 /* DDHotKeyCenter.m */; };
 		488FD38F2D74D26F00CEA188 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FD38E2D74D26F00CEA188 /* AppKit.framework */; };
 		488FD39D2D74D5E000CEA188 /* DDHotKeyUtilities.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */; };
 		488FD39E2D74D5E000CEA188 /* DDHotKeyTextField.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */; };
 		488FD3A02D74D5E000CEA188 /* DDHotKey.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3612D74CCFD00CEA188 /* DDHotKey.h */; };
-		488FD3A22D74D60E00CEA188 /* DDHotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */; };
+		488FD3A22D74D60E00CEA188 /* DDHotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		488FD3A32D74D61A00CEA188 /* DDHotKeyAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AC3D80F4B6AC300CF3369 /* DDHotKeyAppDelegate.h */; };
 		488FD3A42D74D62200CEA188 /* DDHotKeyCenter.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */; };
 /* End PBXBuildFile section */
@@ -194,8 +194,8 @@
 				488FD38C2D74D1D900CEA188 /* DDHotKeyTextField.h in Headers */,
 				488FD36F2D74CCFD00CEA188 /* DDHotKey.h in Headers */,
 				488FD38A2D74D1D900CEA188 /* DDHotKeyUtilities.h in Headers */,
-				488FD3A32D74D61A00CEA188 /* DDHotKeyAppDelegate.h in Headers */,
 				488FD3A22D74D60E00CEA188 /* DDHotKeyCenter.h in Headers */,
+				488FD3A32D74D61A00CEA188 /* DDHotKeyAppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
