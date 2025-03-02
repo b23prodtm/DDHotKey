@@ -9,6 +9,7 @@
  */
 
 #import "DDHotKeyUtilities.h"
+#import <AppKit/NSEvent.h>
 #import <Carbon/Carbon.h>
 
 static NSDictionary *_DDKeyCodeToCharacterMap(void);

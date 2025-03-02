@@ -12,6 +12,18 @@
 		488FD36F2D74CCFD00CEA188 /* DDHotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3612D74CCFD00CEA188 /* DDHotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		488FD3762D74CD0800CEA188 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55378E8B1135C0A70038E405 /* Carbon.framework */; };
 		488FD3782D74CD0E00CEA188 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FD3772D74CD0E00CEA188 /* Cocoa.framework */; };
+		488FD3892D74D1D900CEA188 /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FD3842D74D1D900CEA188 /* DDHotKeyUtilities.m */; };
+		488FD38A2D74D1D900CEA188 /* DDHotKeyUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */; };
+		488FD38B2D74D1D900CEA188 /* DDHotKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FD3862D74D1D900CEA188 /* DDHotKeyTextField.m */; };
+		488FD38C2D74D1D900CEA188 /* DDHotKeyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */; };
+		488FD38D2D74D1D900CEA188 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FD3882D74D1D900CEA188 /* DDHotKeyCenter.m */; };
+		488FD38F2D74D26F00CEA188 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FD38E2D74D26F00CEA188 /* AppKit.framework */; };
+		488FD39D2D74D5E000CEA188 /* DDHotKeyUtilities.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */; };
+		488FD39E2D74D5E000CEA188 /* DDHotKeyTextField.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */; };
+		488FD3A02D74D5E000CEA188 /* DDHotKey.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3612D74CCFD00CEA188 /* DDHotKey.h */; };
+		488FD3A22D74D60E00CEA188 /* DDHotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */; };
+		488FD3A32D74D61A00CEA188 /* DDHotKeyAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 256AC3D80F4B6AC300CF3369 /* DDHotKeyAppDelegate.h */; };
+		488FD3A42D74D62200CEA188 /* DDHotKeyCenter.h in Resources */ = {isa = PBXBuildFile; fileRef = 488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +41,8 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3D80F4B6AC300CF3369 /* DDHotKeyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyAppDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* DDHotKeyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyAppDelegate.m; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* DDHotKeyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		256AC3D90F4B6AC300CF3369 /* DDHotKeyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		256AC3F00F4B6AF500CF3369 /* DDHotKey_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKey_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -42,13 +54,14 @@
 		488FD36C2D74CCFD00CEA188 /* DDHotKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyTests.m; sourceTree = "<group>"; };
 		488FD36E2D74CCFD00CEA188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488FD3772D74CD0E00CEA188 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		488FD3842D74D1D900CEA188 /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
+		488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
+		488FD3862D74D1D900CEA188 /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyTextField.m; sourceTree = "<group>"; };
+		488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyTextField.h; sourceTree = "<group>"; };
+		488FD3882D74D1D900CEA188 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
+		488FD38E2D74D26F00CEA188 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
 		55378E8B1135C0A70038E405 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
-		55CD8D4C181C222B003799D0 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
-		55CD8D4D181C222B003799D0 /* DDHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyCenter.m; sourceTree = "<group>"; };
-		55CD8D4E181C222B003799D0 /* DDHotKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyTextField.h; sourceTree = "<group>"; };
-		55CD8D4F181C222C003799D0 /* DDHotKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyTextField.m; sourceTree = "<group>"; };
-		55CD8D50181C222C003799D0 /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
-		55CD8D51181C222C003799D0 /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DDHotKey-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DDHotKey-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488FD38F2D74D26F00CEA188 /* AppKit.framework in Frameworks */,
 				488FD3782D74CD0E00CEA188 /* Cocoa.framework in Frameworks */,
 				488FD3762D74CD0800CEA188 /* Carbon.framework in Frameworks */,
 			);
@@ -73,16 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				55CD8D55181C2F9E003799D0 /* DDHotKey */,
-				256AC3D80F4B6AC300CF3369 /* DDHotKeyAppDelegate.h */,
-				256AC3D90F4B6AC300CF3369 /* DDHotKeyAppDelegate.m */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +118,6 @@
 		29B97314FDCFA39411CA2CEA /* DDHotKey */ = {
 			isa = PBXGroup;
 			children = (
-				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				488FD3602D74CCFD00CEA188 /* DDHotKey */,
@@ -147,6 +150,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				488FD38E2D74D26F00CEA188 /* AppKit.framework */,
 				488FD3772D74CD0E00CEA188 /* Cocoa.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
@@ -157,6 +161,14 @@
 		488FD3602D74CCFD00CEA188 /* DDHotKey */ = {
 			isa = PBXGroup;
 			children = (
+				488FD3842D74D1D900CEA188 /* DDHotKeyUtilities.m */,
+				488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */,
+				488FD3852D74D1D900CEA188 /* DDHotKeyUtilities.h */,
+				488FD3862D74D1D900CEA188 /* DDHotKeyTextField.m */,
+				488FD3872D74D1D900CEA188 /* DDHotKeyTextField.h */,
+				488FD3882D74D1D900CEA188 /* DDHotKeyCenter.m */,
+				256AC3D80F4B6AC300CF3369 /* DDHotKeyAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* DDHotKeyAppDelegate.m */,
 				488FD3612D74CCFD00CEA188 /* DDHotKey.h */,
 				488FD3622D74CCFD00CEA188 /* Info.plist */,
 			);
@@ -172,19 +184,6 @@
 			path = DDHotKeyTests;
 			sourceTree = "<group>";
 		};
-		55CD8D55181C2F9E003799D0 /* DDHotKey */ = {
-			isa = PBXGroup;
-			children = (
-				55CD8D4C181C222B003799D0 /* DDHotKeyCenter.h */,
-				55CD8D4D181C222B003799D0 /* DDHotKeyCenter.m */,
-				55CD8D4E181C222B003799D0 /* DDHotKeyTextField.h */,
-				55CD8D4F181C222C003799D0 /* DDHotKeyTextField.m */,
-				55CD8D50181C222C003799D0 /* DDHotKeyUtilities.h */,
-				55CD8D51181C222C003799D0 /* DDHotKeyUtilities.m */,
-			);
-			name = DDHotKey;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -192,7 +191,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488FD38C2D74D1D900CEA188 /* DDHotKeyTextField.h in Headers */,
 				488FD36F2D74CCFD00CEA188 /* DDHotKey.h in Headers */,
+				488FD38A2D74D1D900CEA188 /* DDHotKeyUtilities.h in Headers */,
+				488FD3A32D74D61A00CEA188 /* DDHotKeyAppDelegate.h in Headers */,
+				488FD3A22D74D60E00CEA188 /* DDHotKeyCenter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +244,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0820;
 				TargetAttributes = {
 					488FD35E2D74CCFD00CEA188 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -278,6 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488FD39D2D74D5E000CEA188 /* DDHotKeyUtilities.h in Resources */,
+				488FD39E2D74D5E000CEA188 /* DDHotKeyTextField.h in Resources */,
+				488FD3A42D74D62200CEA188 /* DDHotKeyCenter.h in Resources */,
+				488FD3A02D74D5E000CEA188 /* DDHotKey.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488FD3892D74D1D900CEA188 /* DDHotKeyUtilities.m in Sources */,
+				488FD38D2D74D1D900CEA188 /* DDHotKeyCenter.m in Sources */,
+				488FD38B2D74D1D900CEA188 /* DDHotKeyTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +381,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DDHotKey/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -414,6 +425,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DDHotKey/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -501,21 +513,30 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -524,20 +545,29 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -552,6 +582,7 @@
 				488FD3722D74CCFE00CEA188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		488FD3732D74CCFE00CEA188 /* Build configuration list for PBXNativeTarget "DDHotKeyTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +591,7 @@
 				488FD3752D74CCFE00CEA188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DDHotKey" */ = {
 			isa = XCConfigurationList;

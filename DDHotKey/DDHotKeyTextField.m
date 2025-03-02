@@ -10,8 +10,8 @@
 
 #import <Carbon/Carbon.h>
 
-#import "DDHotKeyTextField.h"
-#import "DDHotKeyUtilities.h"
+#import "DDHotKey/DDHotKeyTextField.h"
+#import "DDHotKey/DDHotKeyUtilities.h"
 
 @interface DDHotKeyTextFieldEditor : NSTextView
 

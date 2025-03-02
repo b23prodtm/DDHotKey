@@ -15,5 +15,7 @@ FOUNDATION_EXPORT double DDHotKeyVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDHotKeyVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DDHotKey/PublicHeader.h>
-
+#import <DDHotKey/DDHotKeyCenter.h>
+#import <DDHotKey/DDHotKeyTextField.h>
+#import <DDHotKey/DDHotKeyUtilities.h>
 
