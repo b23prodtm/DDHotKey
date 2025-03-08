@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "488FD35E2D74CCFD00CEA188"
-               BuildableName = "DDHotKey.framework"
-               BlueprintName = "DDHotKey"
+               BlueprintIdentifier = "48F8D99B2D7C8BD500471CE8"
+               BuildableName = "DDhotKey.app"
+               BlueprintName = "DDhotKey"
                ReferencedContainer = "container:DDHotKey.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,13 +28,33 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "48F8D9B02D7C8BD600471CE8"
+               BuildableName = "DDhotKeyTests.xctest"
+               BlueprintName = "DDhotKeyTests"
+               ReferencedContainer = "container:DDHotKey.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "48F8D9BB2D7C8BD600471CE8"
+               BuildableName = "DDhotKeyUITests.xctest"
+               BlueprintName = "DDhotKeyUITests"
+               ReferencedContainer = "container:DDHotKey.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "488FD35E2D74CCFD00CEA188"
-            BuildableName = "DDHotKey.framework"
-            BlueprintName = "DDHotKey"
+            BlueprintIdentifier = "48F8D99B2D7C8BD500471CE8"
+            BuildableName = "DDhotKey.app"
+            BlueprintName = "DDhotKey"
             ReferencedContainer = "container:DDHotKey.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +75,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "488FD35E2D74CCFD00CEA188"
-            BuildableName = "DDHotKey.framework"
-            BlueprintName = "DDHotKey"
+            BlueprintIdentifier = "48F8D99B2D7C8BD500471CE8"
+            BuildableName = "DDhotKey.app"
+            BlueprintName = "DDhotKey"
             ReferencedContainer = "container:DDHotKey.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "488FD35E2D74CCFD00CEA188"
-            BuildableName = "DDHotKey.framework"
-            BlueprintName = "DDHotKey"
+            BlueprintIdentifier = "48F8D99B2D7C8BD500471CE8"
+            BuildableName = "DDhotKey.app"
+            BlueprintName = "DDhotKey"
             ReferencedContainer = "container:DDHotKey.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -75,10 +75,6 @@
 		488FD38E2D74D26F00CEA188 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		488FD3A12D74D60E00CEA188 /* DDHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyCenter.h; sourceTree = "<group>"; };
 		48F8D99C2D7C8BD500471CE8 /* DDhotKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDhotKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48F8D9B52D7C8BD600471CE8 /* DDhotKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDhotKeyTests.m; sourceTree = "<group>"; };
-		48F8D9B72D7C8BD600471CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48F8D9C02D7C8BD600471CE8 /* DDhotKeyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDhotKeyUITests.m; sourceTree = "<group>"; };
-		48F8D9C22D7C8BD600471CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48F8D9D22D7C8D3800471CE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DDhotKey/Images.xcassets; sourceTree = "<group>"; };
 		48F8D9D72D7C8E5D00471CE8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		55378E8B1135C0A70038E405 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
@@ -151,8 +147,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				488FD3602D74CCFD00CEA188 /* DDHotKey */,
 				488FD36B2D74CCFD00CEA188 /* DDHotKeyTests */,
-				48F8D9B42D7C8BD600471CE8 /* DDhotKeyTests */,
-				48F8D9BF2D7C8BD600471CE8 /* DDhotKeyUITests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -213,24 +207,6 @@
 				488FD36E2D74CCFD00CEA188 /* Info.plist */,
 			);
 			path = DDHotKeyTests;
-			sourceTree = "<group>";
-		};
-		48F8D9B42D7C8BD600471CE8 /* DDhotKeyTests */ = {
-			isa = PBXGroup;
-			children = (
-				48F8D9B52D7C8BD600471CE8 /* DDhotKeyTests.m */,
-				48F8D9B72D7C8BD600471CE8 /* Info.plist */,
-			);
-			path = DDhotKeyTests;
-			sourceTree = "<group>";
-		};
-		48F8D9BF2D7C8BD600471CE8 /* DDhotKeyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				48F8D9C02D7C8BD600471CE8 /* DDhotKeyUITests.m */,
-				48F8D9C22D7C8BD600471CE8 /* Info.plist */,
-			);
-			path = DDhotKeyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
