@@ -1,18 +1,18 @@
 //
-//  DDHotKeyTests.m
-//  DDHotKeyTests
+//  DDhotKeyTests.m
+//  DDhotKeyTests
 //
-//  Created by MacPro1 on 02/03/2025.
+//  Created by MacPro1 on 08/03/2025.
 //
 //
 
 #import <XCTest/XCTest.h>
 
-@interface DDHotKeyTests : XCTestCase
+@interface DDhotKeyTests : XCTestCase
 
 @end
 
-@implementation DDHotKeyTests
+@implementation DDhotKeyTests
 
 - (void)setUp {
     [super setUp];

@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>DDhotKey.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>488FD3662D74CCFD00CEA188</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48F8D99B2D7C8BD500471CE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48F8D9B02D7C8BD600471CE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>48F8D9BB2D7C8BD600471CE8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
